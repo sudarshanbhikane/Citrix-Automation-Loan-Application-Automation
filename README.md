@@ -1,51 +1,38 @@
+# UiPath Loan Application Automation
 
----
+## Overview
 
-# Loan Application Automation
+This UiPath project automates the loan application process for UiBank.uipath.com. The automation includes automating the login page and determining the eligibility of a person for a loan based on information extracted from the loan application form, including income, loan amount, and age.
 
-This project automates the loan application process by first automating the login page of [UiBank](https://uipath.com) and then determining the eligibility for a loan based on information such as income, loan amount, and age extracted from the loan application form.
+## Description
+
+The solution is implemented as a Citrix automation project using Ai computer vision activities. This approach ensures robust automation even in environments where traditional automation methods may not be directly applicable.
 
 ## Prerequisites
 
-Before you begin with this project, ensure you have completed the following prerequisites:
+Before using this automation project, make sure you have completed the following prerequisites:
 
-- **Create UiPath Account:**
-  - [Create an account](https://uipath.com) with UiPath if you don't have one.
+1. **UiPath Account:**
+   - Create an account with [UiPath](https://www.uipath.com/) if you don't have one already.
 
-- **UiBank Account:**
-  - [Sign up](https://uibank.com) for an account on the UiBank website.
+2. **UiBank Account:**
+   - Register an account with [UiBank](https://uipath.com/uibank) on their website.
 
-## Project Overview
-
-The loan application automation project is divided into two main parts:
-
-1. **Automate Login Page:**
-   - The automation script logs in to the UiBank website using your credentials.
-
-2. **Loan Eligibility Check:**
-   - The script extracts information from the loan application form, including income, loan amount, and age.
-   - Based on the extracted information, the script determines whether the person is eligible for a loan.
-
-## Usage
+## Usage Instructions
 
 Follow these steps to use the loan application automation:
 
-1. **Clone the Repository:**
-   - Clone this repository to your local machine.
+1. **Login to UiBank:**
+   - Run the automation for the login page to UiBank.uipath.com.
+   - Provide your UiBank credentials when prompted.
 
-```bash
-git clone https://github.com/your-username/loan-application-automation.git
-cd loan-application-automation
-```
+2. **Complete Loan Application:**
+   - The automation will guide you through the loan application form.
+   - Enter the required information when prompted, such as income, loan amount, and age.
 
-2. **Configure UiPath Credentials:**
-   - Open the UiPath project in UiPath Studio.
-   - Configure your UiBank credentials in the automation script.
+3. **Check Eligibility:**
+   - Based on the entered information, the automation will determine whether the person is eligible for the loan.
 
-3. **Run the Automation:**
-   - Execute the automation script to automate the login page and determine loan eligibility.
+## Important Note
 
-## Contributing
-
-If you would like to contribute to this project, feel free to open issues, submit pull requests, or provide feedback.
-
+This project is specifically designed for Citrix environments and employs Ai computer vision activities for reliable automation. Ensure that your environment is compatible with these requirements before running the automation.
